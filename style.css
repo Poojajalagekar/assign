@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(coral, blueviolet);
+    transition: 0.5s;
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    background: linear-gradient(to top, white 50%,red 20%,orange 90%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.container-text,h1,h2{
+    text-align: left;
+    color:white;
+    font-style: arial ;
+}
+.container-text p{
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+.container2{
+    position: relative ;
+    width: 350px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
+    border-spacing: 15px;
+    border-collapse: separate;
+    padding: 30px;
+    justify-content: center;
+    /* display: flex; */
+}
+#logo{
+    height: 70px;
+    width: 70px;
+    background: orange;
+    clip-path: circle();
+    top:calc(-70px/2) ;
+    overflow: hidden;
+    position: absolute;
+    padding: 3px;
+   border-radius: 50%;  
+}
+
+#logo img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.nested{
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    justify-items: center;
+    margin-bottom: 1rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
+    font-style: impact ;
+    color: black;
+    /* animation: slide_bottom 1.6s ease-in-out; */
+    transition: all 3.5s;
+}
+
+.nested2{
+    width: 255px;
+    height: 55px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background: white;
+    justify-items: center;
+    margin-top: 3rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
+    color: black;
+    margin-left: 20px;
+    /* animation: slide_bottom 1.4s ease; */
+    transition: all 2.3s;
+}
+
+.box{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 1px;
+    font-style: arial;
+    color: black;
+    
+}
+/* @keyframes slide_bottom{
+0%{
+    transform: translate(50px,20px);
+}
+100%{
+    transform: translate(5px,2px);
+}
+} */
